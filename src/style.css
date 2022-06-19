@@ -10,3 +10,8 @@ h1 {
   line-height: 28px;
   margin-bottom: 0;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
