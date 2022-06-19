@@ -51,3 +51,10 @@ li.first-letter {
   height: 64px;
   width: 64px;
 }
+
+.weather-temperature strong {
+  color: #815a8f;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
