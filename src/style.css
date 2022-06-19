@@ -58,3 +58,15 @@ li.first-letter {
   line-height: 1;
   font-weight: 400;
 }
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-app-wrapper .active {
+  color: #815a8f;
+  cursor: default;
+  text-decoration: none;
+}
