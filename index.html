@@ -19,7 +19,7 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <div id="search-form" class="mb-3">
+          <form id="search-form" class="mb-3">
             <div class="col-9">
               <input
                 type="search"
@@ -33,7 +33,7 @@
               <input type="submit" value="search" class="btn btn-secondary" />
             </div>
           </div>
-          <form>
+        </form>
             <div class="overview">
               <h1 id="city"></h1>
               <ul>
@@ -56,11 +56,21 @@
                     </span>
                   </div>
                 </div>
-                <div class="col-6"></div>
+                <div class="col-6">
+                  <ul>
+                    <li>Humidity: <span id="humidity"></span></li>
+                    <li>Wind: <span id="wind">km/h</span></li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </form>
         </div>
+        <small>
+            <a href="https://github.com/LineJinJ/SheCodes_Plus_W7_L8_From_Beginning" target="_blank">
+                Open-source code
+                        </a>
+                        by Line Jin Jørgensen
+        </small>
       </div>
     </div>
     <script src="src/app.js"></script>
