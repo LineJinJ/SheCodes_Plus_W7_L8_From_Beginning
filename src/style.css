@@ -36,6 +36,7 @@ img {
 }
 
 small {
+  display: inline;
   color: #9862ae;
   font-size: 16px;
   font-weight: 100;
