@@ -1,6 +1,10 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: #f1ed63;
+  border: 1px solid #815a8f;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 20px;
 }
 
 h1 {
@@ -36,7 +40,6 @@ img {
 }
 
 small {
-  display: inline;
   color: #9862ae;
   font-size: 16px;
   font-weight: 100;
@@ -46,12 +49,6 @@ small {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
-}
-
-.weather-app {
-  padding: 20px;
-  border: 1px solid #815a8f;
-  border-radius: 10px;
 }
 
 .overview {
