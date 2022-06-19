@@ -74,3 +74,13 @@ li.first-letter {
 .weather-temperature active:hover {
   text-decoration: none;
 }
+
+.weather-app-wrapper .inactive {
+  color: #815a8f;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature inactive:hover {
+  text-decoration: none;
+}
