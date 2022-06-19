@@ -44,3 +44,10 @@ li.first-letter {
 .overview {
   margin-bottom: 20px;
 }
+
+.weather-temperature img {
+  margin-right: 5px;
+  float: left;
+  height: 64px;
+  width: 64px;
+}
