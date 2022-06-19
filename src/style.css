@@ -30,6 +30,11 @@ li.first-letter {
   text-transform: capitalize;
 }
 
+img {
+  color: #d97d97;
+  font-size: 16px;
+}
+
 small {
   color: #9862ae;
   font-size: 16px;
